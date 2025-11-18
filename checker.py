@@ -21,7 +21,7 @@ def main():
 
     # Cargamos el CSV generado por Tenable One
     print("Cargando archivo CSV")
-    vulnerabilities_df = pd.read_csv('data/tenable_one_sample.csv', encoding="latin1")
+    vulnerabilities_df = pd.read_csv('data/tenable_one_csv.csv', encoding="latin1")
     print("Cargando el listado KEV")
     kev_df = pd.read_csv(KEV_CSV_URL)
 

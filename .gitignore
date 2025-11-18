@@ -1,5 +1,5 @@
 *.ipynb
 data/*.csv
 .DS_Store
-.ipynb_checkkpoints
+.ipynb_checkpoints
 .venv
